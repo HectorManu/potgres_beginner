@@ -40,7 +40,7 @@ Una vez dentro de postgres sql ejecutamos el siguiente comando para observar las
 
 Crea tú primera base de datos con el usuario que diste anteriormente:
 ```bash
-create my_database -O my_user;
+CREATE DATABASE "TuBaseDeDatos" WITH OWNER = "TuUsuario";
 ```
 
 Accerde a la base de datos: 
